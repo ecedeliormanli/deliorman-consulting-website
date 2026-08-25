@@ -1,10 +1,12 @@
 <script setup>
 // Fotoğraf, telefon ve unvan bilgileri geldikçe buradaki listeye
 // yeni üyeler eklenip 'photo' alanına /team/<dosya-adı>.jpg yolu verilecek.
-const teamKeys = ['member1'];
+const teamKeys = ['member1', 'member2', 'member3'];
 
 const teamPhotos = {
   member1: '',
+  member2: '',
+  member3: '',
 };
 </script>
 

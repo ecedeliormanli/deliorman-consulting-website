@@ -1,31 +1,54 @@
 {
   "heroSection": {
-    "heroTitle": "Liderlik ve Dijital Dönüşümde Uzman Çözümler",
-    "heroSubtitle": "İşletmenizin geleceğini bugünden şekillendiriyoruz. Güçlü stratejiler ve operasyonel mükemmellik.",
+    "heroTitle": "2009'dan Bu Yana Bulgaristan Vize ve Pasaport İşlemlerinde Güvenilir Çözüm Ortağınız",
+    "heroSubtitle": "Vize, pasaport ve vatandaşlık başvurularınızı 2009'dan beri deneyimli ekibimizle güvenle ve hızla sonuçlandırıyoruz.",
     "contactCta": "Hemen İletişime Geç",
     "servicesTitle": "Hizmetlerimiz",
     "aboutTitle": "Hakkımızda",
     "teamTitle": "Ekibimiz",
     "contactTitle": "İletişim"
   },
+  "processSection": {
+    "sectionTitle": "Nasıl Çalışıyoruz?",
+    "step1Title": "İletişime Geçin",
+    "step1Desc": "Telefon, WhatsApp veya iletişim formuyla bize ulaşın, talebinizi bizimle paylaşın.",
+    "step2Title": "Evraklarınızı Hazırlayalım",
+    "step2Desc": "İşleminize özel gerekli evrak listesini sizinle paylaşır, hazırlık sürecinde yardımcı oluruz.",
+    "step3Title": "Başvurunuzu Yapalım",
+    "step3Desc": "Başvuru sürecini sizin adınıza titizlikle takip eder, randevu ve işlemlerinizi yönetiriz.",
+    "step4Title": "Sonucu Bildirelim",
+    "step4Desc": "Süreç sonuçlanana kadar sizi bilgilendirir, belgelerinizi güvenle teslim ederiz."
+  },
   "servicesSection": {
-    "sectionTitle": "Temel Yetkinlik Alanlarımız",
-    "service1Title": "Strateji Danışmanlığı",
-    "service1Desc": "Pazar analizi, büyüme stratejileri ve kurumsal yönetim çözümleriyle rekabet avantajı sağlayın.",
-    "service2Title": "Finansal Optimizasyon",
-    "service2Desc": "Sermaye planlaması, risk yönetimi ve finansal modelleme ile yatırım getirinizi maksimize edin.",
-    "service3Title": "Operasyonel Mükemmellik",
-    "service3Desc": "Süreç iyileştirme, yalın yönetim ve dijitalleşme ile verimliliği en üst düzeye çıkarın."
+    "sectionTitle": "Hizmetlerimiz",
+    "service1Title": "Turistik Vize",
+    "service1Desc": "Bulgaristan'a turistik seyahatleriniz için vize başvuru sürecinizi baştan sona sizin adınıza yönetiyoruz.",
+    "service2Title": "D Vizesi / Oturum İzni",
+    "service2Desc": "Çalışma, öğrenim veya uzun süreli ikamet amaçlı D vizesi ve oturum izni başvurularınızda yanınızdayız.",
+    "service3Title": "Bulgar Vatandaşlığı",
+    "service3Desc": "Soy bağı ve diğer yollarla Bulgar vatandaşlığı ile çifte vatandaşlık başvurularınızda uçtan uca danışmanlık sağlıyoruz.",
+    "service4Title": "Pasaport İşlemleri",
+    "service4Desc": "Bulgar pasaportunuzun çıkarılması ve yenilenmesi ile pasavan işlemlerinizi hızlı ve sorunsuz şekilde tamamlıyoruz.",
+    "service5Title": "Liçna Kart (Kimlik) İşlemleri",
+    "service5Desc": "Bulgar kimlik kartınızın (liçna kart) çıkarılması ve yenilenmesi süreçlerini sizin adınıza yürütüyoruz.",
+    "service6Title": "Noter Tasdiki & Tercüme",
+    "service6Desc": "Resmi evraklarınızın noter tasdiki ve yeminli tercüme işlemlerini güvenilir çözüm ortaklarımızla organize ediyoruz."
   },
   "aboutSection": {
     "sectionTitle": "Neden Bizi Seçmelisiniz?",
-    "aboutContent": "Deliorman Danışmanlık olarak, sektörde çığır açan stratejiler ve kanıtlanmış sonuçlar sunma taahhüdümüzle tanınıyoruz. Dinamik ekibimiz, karmaşık iş zorluklarınıza çeviklik ve uzmanlıkla yanıt verir. Müşteri memnuniyeti ve şeffaflık temel ilkelerimizdir."
+    "aboutContent": "2009 yılından bu yana Bulgaristan vize, pasaport ve vatandaşlık işlemlerinde binlerce müşteriye hizmet verdik. Deneyimli ekibimiz, başvurunuzdan sonuçlanana kadar tüm süreci sizin adınıza titizlikle takip eder. Güvenilirlik, şeffaflık ve hız önceliğimizdir."
   },
   "teamSection": {
     "sectionTitle": "Ekibimiz",
-    "member1Name": "İsim Soyisim",
-    "member1Title": "Unvan",
-    "member1Phone": "+90 5xx xxx xx xx"
+    "member1Name": "İbrahim Deliormanlı",
+    "member1Title": "Kurucu / Firma Sahibi",
+    "member1Phone": "+90 532 382 30 18",
+    "member2Name": "Sibel",
+    "member2Title": "Vize & Pasaport Danışmanı",
+    "member2Phone": "+90 554 196 10 11",
+    "member3Name": "İsim Soyisim",
+    "member3Title": "Vize & Pasaport Danışmanı",
+    "member3Phone": "+90 5xx xxx xx xx"
   },
   "contactSection": {
     "sectionTitle": "Bize Ulaşın",
@@ -34,7 +57,11 @@
     "messageLabel": "Mesajınız / Sorunuz",
     "sendButton": "Gönder",
     "requiredField": "Bu alan gereklidir.",
-    "sendSuccess": "Mesajınız başarıyla gönderildi. Ad: {name}"
+    "sendSuccess": "Mesajınız başarıyla gönderildi. Ad: {name}",
+    "sendError": "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin veya bizi telefonla arayın.",
+    "kvkkConsentText": "Kişisel verilerimin işlenmesine ilişkin",
+    "kvkkLinkText": "KVKK Aydınlatma Metni'ni okudum, kabul ediyorum.",
+    "kvkkRequired": "Devam etmek için KVKK Aydınlatma Metni'ni onaylamanız gerekmektedir."
   },
   "locationSection": {
     "sectionTitle": "Adres & Konum Bilgileri",
@@ -44,7 +71,7 @@
     "phoneLabel": "Telefon",
     "phoneContent": "+90 312 384 10 11",
     "emailLabel": "E-posta",
-    "emailContent": "info{'@'}deliormandanismanlik.com",
+    "emailContent": "deliormandanismanlik{'@'}hotmail.com",
     "whatsappButton": "Konumu WhatsApp ile Gönder",
     "directionsButton": "Yol Tarifi Al",
     "wpHref": "https://wa.me/?text=Deliorman Danışmanlık%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
@@ -52,9 +79,17 @@
     "embedSrc": "https://maps.google.com/maps?q=Deliorman+Danışmanlık,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara&output=embed"
   },
   "footerSection": {
-    "rights": "Tüm Hakları Saklıdır."
+    "rights": "Tüm Hakları Saklıdır.",
+    "privacyLink": "Gizlilik Politikası / KVKK Aydınlatma Metni",
+    "facebookLabel": "Facebook'ta bizi takip edin"
+  },
+  "legalSection": {
+    "title": "Gizlilik Politikası ve KVKK Aydınlatma Metni",
+    "content": "Deliorman Danışmanlık (\"Şirket\") olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca veri sorumlusu sıfatıyla hareket etmekteyiz.\n\nBu internet sitesindeki iletişim formu aracılığıyla paylaştığınız ad-soyad, e-posta adresi ve mesaj içeriğinden oluşan kişisel verileriniz; tarafınızla iletişime geçilmesi, talebinizin veya sorunuzun yanıtlanması ve sunduğumuz danışmanlık hizmetleri hakkında bilgilendirme yapılması amaçlarıyla, KVKK'nın 5. maddesinde belirtilen açık rızanızın bulunması ve bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması hukuki sebeplerine dayanılarak işlenmektedir.\n\nKişisel verileriniz, yasal yükümlülüklerimiz saklı kalmak kaydıyla üçüncü kişilerle paylaşılmaz ve talebinizin sonuçlandırılması için gerekli olan süre boyunca saklanır.\n\nKVKK'nın 11. maddesi kapsamında; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK'da öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme haklarına sahipsiniz.\n\nBu haklarınızı kullanmak için deliormandanismanlik@hotmail.com adresinden bizimle iletişime geçebilirsiniz."
   },
   "common": {
-    "close": "Kapat"
+    "close": "Kapat",
+    "whatsappFloatingLabel": "WhatsApp'tan yazın",
+    "whatsappFloatingMessage": "Merhaba, Bulgaristan vize ve pasaport işlemleri hakkında bilgi almak istiyorum."
   }
 }

@@ -1,31 +1,54 @@
 {
   "heroSection": {
-    "heroTitle": "Expert Solutions in Leadership and Digital Transformation",
-    "heroSubtitle": "We shape your business future today. Delivering robust strategies and operational excellence.",
+    "heroTitle": "Your Trusted Partner for Bulgarian Visa and Passport Procedures Since 2009",
+    "heroSubtitle": "We have been completing visa, passport, and citizenship applications for our clients with confidence and speed since 2009.",
     "contactCta": "Contact Us Now",
     "servicesTitle": "Our Services",
     "aboutTitle": "About Us",
     "teamTitle": "Our Team",
     "contactTitle": "Contact Us"
   },
+  "processSection": {
+    "sectionTitle": "How It Works",
+    "step1Title": "Get in Touch",
+    "step1Desc": "Reach us by phone, WhatsApp, or the contact form and share your request.",
+    "step2Title": "We Prepare Your Documents",
+    "step2Desc": "We share the required document checklist for your case and help you prepare it.",
+    "step3Title": "We Handle Your Application",
+    "step3Desc": "We carefully manage the application process, appointments, and procedures on your behalf.",
+    "step4Title": "We Keep You Updated",
+    "step4Desc": "We keep you informed until the process is complete and deliver your documents securely."
+  },
   "servicesSection": {
-    "sectionTitle": "Our Core Competencies",
-    "service1Title": "Strategy Consulting",
-    "service1Desc": "Gain competitive advantage with market analysis, growth strategies, and corporate governance solutions.",
-    "service2Title": "Financial Optimization",
-    "service2Desc": "Maximize your return on investment through capital planning, risk management, and financial modeling.",
-    "service3Title": "Operational Excellence",
-    "service3Desc": "Maximize efficiency through process improvement, lean management, and digitization."
+    "sectionTitle": "Our Services",
+    "service1Title": "Tourist Visa",
+    "service1Desc": "We manage your visa application process for tourist travel to Bulgaria from start to finish.",
+    "service2Title": "D Visa / Residence Permit",
+    "service2Desc": "We support your D visa and residence permit applications for work, study, or long-term residence.",
+    "service3Title": "Bulgarian Citizenship",
+    "service3Desc": "We provide end-to-end consulting for Bulgarian citizenship and dual citizenship applications through ancestry and other routes.",
+    "service4Title": "Passport Services",
+    "service4Desc": "We complete the issuance and renewal of your Bulgarian passport, along with laissez-passer (pasavan) procedures, quickly and smoothly.",
+    "service5Title": "ID Card (Lichna Karta) Services",
+    "service5Desc": "We handle the issuance and renewal of your Bulgarian ID card (lichna karta) on your behalf.",
+    "service6Title": "Notarization & Translation",
+    "service6Desc": "We arrange notarization and certified translation of your official documents through our trusted partners."
   },
   "aboutSection": {
     "sectionTitle": "Why Choose Us?",
-    "aboutContent": "At Deliorman Consulting, we are known for our commitment to delivering groundbreaking strategies and proven results. Our dynamic team responds to your complex business challenges with agility and expertise. Customer satisfaction and transparency are our core principles."
+    "aboutContent": "Since 2009, we have served thousands of clients with Bulgarian visa, passport, and citizenship procedures. Our experienced team meticulously follows your case on your behalf from application to conclusion. Reliability, transparency, and speed are our top priorities."
   },
   "teamSection": {
     "sectionTitle": "Our Team",
-    "member1Name": "Full Name",
-    "member1Title": "Title",
-    "member1Phone": "+90 5xx xxx xx xx"
+    "member1Name": "İbrahim Deliormanlı",
+    "member1Title": "Founder / Owner",
+    "member1Phone": "+90 532 382 30 18",
+    "member2Name": "Sibel",
+    "member2Title": "Visa & Passport Consultant",
+    "member2Phone": "+90 554 196 10 11",
+    "member3Name": "Full Name",
+    "member3Title": "Visa & Passport Consultant",
+    "member3Phone": "+90 5xx xxx xx xx"
   },
   "contactSection": {
     "sectionTitle": "Reach Out to Us",
@@ -34,27 +57,39 @@
     "messageLabel": "Your Message / Question",
     "sendButton": "Send",
     "requiredField": "This field is required.",
-    "sendSuccess": "Your message was sent successfully. Name: {name}"
+    "sendSuccess": "Your message was sent successfully. Name: {name}",
+    "sendError": "An error occurred while sending your message. Please try again or call us.",
+    "kvkkConsentText": "Regarding the processing of my personal data, I have read and accept the",
+    "kvkkLinkText": "Privacy Notice (KVKK).",
+    "kvkkRequired": "You must accept the Privacy Notice (KVKK) to continue."
   },
   "locationSection": {
     "sectionTitle": "Address & Location Info",
-    "firmName": "Deliorman Consulting",
+    "firmName": "Deliorman Danışmanlık",
     "addressLabel": "Address",
     "addressContent": "Kavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara",
     "phoneLabel": "Phone",
     "phoneContent": "+90 312 384 10 11",
     "emailLabel": "E-mail",
-    "emailContent": "info{'@'}deliormandanismanlik.com",
+    "emailContent": "deliormandanismanlik{'@'}hotmail.com",
     "whatsappButton": "Share Location via WhatsApp",
     "directionsButton": "Get Directions",
-    "wpHref": "https://wa.me/?text=Deliorman Consulting%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
-    "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Deliorman+Consulting,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara",
-    "embedSrc": "https://maps.google.com/maps?q=Deliorman+Consulting,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara&output=embed"
+    "wpHref": "https://wa.me/?text=Deliorman Danışmanlık%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
+    "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Deliorman+Danışmanlık,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara",
+    "embedSrc": "https://maps.google.com/maps?q=Deliorman+Danışmanlık,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara&output=embed"
   },
   "footerSection": {
-    "rights": "All Rights Reserved."
+    "rights": "All Rights Reserved.",
+    "privacyLink": "Privacy Policy / KVKK Notice",
+    "facebookLabel": "Follow us on Facebook"
+  },
+  "legalSection": {
+    "title": "Privacy Policy and KVKK Notice",
+    "content": "Deliorman Danışmanlık (the \"Company\") acts as the data controller under Turkey's Law on the Protection of Personal Data No. 6698 (\"KVKK\").\n\nThe name, email address, and message content you share through the contact form on this website are processed to contact you, respond to your request, and inform you about our consulting services, based on your explicit consent and the necessity for the establishment or performance of a contract, as set out in Article 5 of the KVKK.\n\nYour personal data is not shared with third parties, except where required by law, and is retained only for as long as necessary to resolve your request.\n\nUnder Article 11 of the KVKK, you have the right to learn whether your personal data is being processed, request information about it, learn its purpose and whether it is used accordingly, know the third parties to whom it is transferred domestically or abroad, request correction if it has been processed incompletely or incorrectly, and request its deletion or destruction under the conditions set out in the law.\n\nYou may contact us at deliormandanismanlik@hotmail.com to exercise these rights."
   },
   "common": {
-    "close": "Close"
+    "close": "Close",
+    "whatsappFloatingLabel": "Chat on WhatsApp",
+    "whatsappFloatingMessage": "Hello, I would like information about Bulgarian visa and passport procedures."
   }
 }
