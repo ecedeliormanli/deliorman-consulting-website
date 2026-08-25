@@ -1,0 +1,25 @@
+{
+  "name": "dd-consulting-site",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "@vee-validate/i18n": "^4.15.1",
+    "@vee-validate/rules": "^4.15.1",
+    "sass": "^1.94.1",
+    "vee-validate": "^4.15.1",
+    "vue": "^3.5.24",
+    "vue-i18n": "^10.0.5",
+    "vuetify": "3.11.0-beta.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.2.2"
+  }
+}

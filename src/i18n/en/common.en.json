@@ -1,0 +1,60 @@
+{
+  "heroSection": {
+    "heroTitle": "Expert Solutions in Leadership and Digital Transformation",
+    "heroSubtitle": "We shape your business future today. Delivering robust strategies and operational excellence.",
+    "contactCta": "Contact Us Now",
+    "servicesTitle": "Our Services",
+    "aboutTitle": "About Us",
+    "teamTitle": "Our Team",
+    "contactTitle": "Contact Us"
+  },
+  "servicesSection": {
+    "sectionTitle": "Our Core Competencies",
+    "service1Title": "Strategy Consulting",
+    "service1Desc": "Gain competitive advantage with market analysis, growth strategies, and corporate governance solutions.",
+    "service2Title": "Financial Optimization",
+    "service2Desc": "Maximize your return on investment through capital planning, risk management, and financial modeling.",
+    "service3Title": "Operational Excellence",
+    "service3Desc": "Maximize efficiency through process improvement, lean management, and digitization."
+  },
+  "aboutSection": {
+    "sectionTitle": "Why Choose Us?",
+    "aboutContent": "At Deliorman Consulting, we are known for our commitment to delivering groundbreaking strategies and proven results. Our dynamic team responds to your complex business challenges with agility and expertise. Customer satisfaction and transparency are our core principles."
+  },
+  "teamSection": {
+    "sectionTitle": "Our Team",
+    "member1Name": "Full Name",
+    "member1Title": "Title",
+    "member1Phone": "+90 5xx xxx xx xx"
+  },
+  "contactSection": {
+    "sectionTitle": "Reach Out to Us",
+    "nameLabel": "Full Name",
+    "emailLabel": "Email Address",
+    "messageLabel": "Your Message / Question",
+    "sendButton": "Send",
+    "requiredField": "This field is required.",
+    "sendSuccess": "Your message was sent successfully. Name: {name}"
+  },
+  "locationSection": {
+    "sectionTitle": "Address & Location Info",
+    "firmName": "Deliorman Consulting",
+    "addressLabel": "Address",
+    "addressContent": "Kavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara",
+    "phoneLabel": "Phone",
+    "phoneContent": "+90 312 384 10 11",
+    "emailLabel": "E-mail",
+    "emailContent": "info{'@'}deliormandanismanlik.com",
+    "whatsappButton": "Share Location via WhatsApp",
+    "directionsButton": "Get Directions",
+    "wpHref": "https://wa.me/?text=Deliorman Consulting%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
+    "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Deliorman+Consulting,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara",
+    "embedSrc": "https://maps.google.com/maps?q=Deliorman+Consulting,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara&output=embed"
+  },
+  "footerSection": {
+    "rights": "All Rights Reserved."
+  },
+  "common": {
+    "close": "Close"
+  }
+}

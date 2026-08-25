@@ -1,0 +1,60 @@
+{
+  "heroSection": {
+    "heroTitle": "Liderlik ve Dijital Dönüşümde Uzman Çözümler",
+    "heroSubtitle": "İşletmenizin geleceğini bugünden şekillendiriyoruz. Güçlü stratejiler ve operasyonel mükemmellik.",
+    "contactCta": "Hemen İletişime Geç",
+    "servicesTitle": "Hizmetlerimiz",
+    "aboutTitle": "Hakkımızda",
+    "teamTitle": "Ekibimiz",
+    "contactTitle": "İletişim"
+  },
+  "servicesSection": {
+    "sectionTitle": "Temel Yetkinlik Alanlarımız",
+    "service1Title": "Strateji Danışmanlığı",
+    "service1Desc": "Pazar analizi, büyüme stratejileri ve kurumsal yönetim çözümleriyle rekabet avantajı sağlayın.",
+    "service2Title": "Finansal Optimizasyon",
+    "service2Desc": "Sermaye planlaması, risk yönetimi ve finansal modelleme ile yatırım getirinizi maksimize edin.",
+    "service3Title": "Operasyonel Mükemmellik",
+    "service3Desc": "Süreç iyileştirme, yalın yönetim ve dijitalleşme ile verimliliği en üst düzeye çıkarın."
+  },
+  "aboutSection": {
+    "sectionTitle": "Neden Bizi Seçmelisiniz?",
+    "aboutContent": "Deliorman Danışmanlık olarak, sektörde çığır açan stratejiler ve kanıtlanmış sonuçlar sunma taahhüdümüzle tanınıyoruz. Dinamik ekibimiz, karmaşık iş zorluklarınıza çeviklik ve uzmanlıkla yanıt verir. Müşteri memnuniyeti ve şeffaflık temel ilkelerimizdir."
+  },
+  "teamSection": {
+    "sectionTitle": "Ekibimiz",
+    "member1Name": "İsim Soyisim",
+    "member1Title": "Unvan",
+    "member1Phone": "+90 5xx xxx xx xx"
+  },
+  "contactSection": {
+    "sectionTitle": "Bize Ulaşın",
+    "nameLabel": "Adınız Soyadınız",
+    "emailLabel": "E-posta Adresiniz",
+    "messageLabel": "Mesajınız / Sorunuz",
+    "sendButton": "Gönder",
+    "requiredField": "Bu alan gereklidir.",
+    "sendSuccess": "Mesajınız başarıyla gönderildi. Ad: {name}"
+  },
+  "locationSection": {
+    "sectionTitle": "Adres & Konum Bilgileri",
+    "firmName": "Deliorman Danışmanlık",
+    "addressLabel": "Adres",
+    "addressContent": "Kavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara",
+    "phoneLabel": "Telefon",
+    "phoneContent": "+90 312 384 10 11",
+    "emailLabel": "E-posta",
+    "emailContent": "info{'@'}deliormandanismanlik.com",
+    "whatsappButton": "Konumu WhatsApp ile Gönder",
+    "directionsButton": "Yol Tarifi Al",
+    "wpHref": "https://wa.me/?text=Deliorman Danışmanlık%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
+    "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Deliorman+Danışmanlık,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara",
+    "embedSrc": "https://maps.google.com/maps?q=Deliorman+Danışmanlık,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara&output=embed"
+  },
+  "footerSection": {
+    "rights": "Tüm Hakları Saklıdır."
+  },
+  "common": {
+    "close": "Kapat"
+  }
+}

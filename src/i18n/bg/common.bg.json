@@ -1,0 +1,60 @@
+{
+  "heroSection": {
+    "heroTitle": "Експертни решения в лидерството и дигиталната трансформация",
+    "heroSubtitle": "Оформяме бъдещето на вашия бизнес още днес. Предлагаме стабилни стратегии и оперативно съвършенство.",
+    "contactCta": "Свържете се с нас сега",
+    "servicesTitle": "Нашите услуги",
+    "aboutTitle": "За нас",
+    "teamTitle": "Нашият екип",
+    "contactTitle": "Контакти"
+  },
+  "servicesSection": {
+    "sectionTitle": "Нашите основни компетенции",
+    "service1Title": "Стратегическо консултиране",
+    "service1Desc": "Постигнете конкурентно предимство чрез пазарен анализ, стратегии за растеж и решения за корпоративно управление.",
+    "service2Title": "Финансова оптимизация",
+    "service2Desc": "Максимизирайте възвръщаемостта на инвестициите чрез капиталово планиране, управление на риска и финансово моделиране.",
+    "service3Title": "Оперативно съвършенство",
+    "service3Desc": "Повишете ефективността чрез подобряване на процесите, лийн управление и дигитализация."
+  },
+  "aboutSection": {
+    "sectionTitle": "Защо да изберете нас?",
+    "aboutContent": "В Deliorman Consulting сме известни с ангажимента си да предлагаме новаторски стратегии и доказани резултати. Нашият динамичен екип реагира на сложните бизнес предизвикателства с гъвкавост и експертиза. Удовлетвореността на клиентите и прозрачността са наши основни принципи."
+  },
+  "teamSection": {
+    "sectionTitle": "Нашият екип",
+    "member1Name": "Име Фамилия",
+    "member1Title": "Длъжност",
+    "member1Phone": "+90 5xx xxx xx xx"
+  },
+  "contactSection": {
+    "sectionTitle": "Свържете се с нас",
+    "nameLabel": "Име и фамилия",
+    "emailLabel": "Имейл адрес",
+    "messageLabel": "Вашето съобщение / въпрос",
+    "sendButton": "Изпрати",
+    "requiredField": "Това поле е задължително.",
+    "sendSuccess": "Съобщението ви беше изпратено успешно. Име: {name}"
+  },
+  "locationSection": {
+    "sectionTitle": "Адрес и информация за местоположение",
+    "firmName": "Делиорман Консултинг",
+    "addressLabel": "Адрес",
+    "addressContent": "Kavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara",
+    "phoneLabel": "Телефон",
+    "phoneContent": "+90 312 384 10 11",
+    "emailLabel": "Имейл",
+    "emailContent": "info{'@'}deliormandanismanlik.com",
+    "whatsappButton": "Споделете местоположението през WhatsApp",
+    "directionsButton": "Вземете упътване",
+    "wpHref": "https://wa.me/?text=Deliorman Consulting%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
+    "mapsUrl": "https://www.google.com/maps/dir/?api=1&destination=Deliorman+Consulting,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara",
+    "embedSrc": "https://maps.google.com/maps?q=Deliorman+Consulting,+Kavacık+Subayevleri,+Cihangir+Cd.+No:1+D:1,+06135+Keçiören/Ankara&output=embed"
+  },
+  "footerSection": {
+    "rights": "Всички права запазени."
+  },
+  "common": {
+    "close": "Затвори"
+  }
+}
