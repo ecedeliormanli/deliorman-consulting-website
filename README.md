@@ -10,7 +10,7 @@ Multilingual marketing website for **Deliorman Danışmanlık**, a consulting fi
 
 ## Features
 - **Three languages** — Turkish, English and Bulgarian with a runtime language switcher (`vue-i18n`)
-- **Contact form** with client-side validation (`vee-validate`) and a required KVKK (Turkish GDPR) consent, submitted through **Netlify Forms** with a honeypot field against spam
+- **Contact form** with client-side validation (`vee-validate`) and a required KVKK (Turkish GDPR) consent, delivered by email through **Web3Forms** (`VITE_WEB3FORMS_KEY` in `.env`)
 - **Privacy notice** dialog (KVKK) and localized validation messages
 - **WhatsApp** floating contact button and location sharing
 - **Google Maps** embed with one-click directions
@@ -18,7 +18,7 @@ Multilingual marketing website for **Deliorman Danışmanlık**, a consulting fi
 - **SEO** — meta / Open Graph / Twitter tags, canonical URL, schema.org business data, and `sitemap.xml` / `robots.txt` generated at build time from `VITE_SITE_URL`
 
 ## Tech stack
-Vue 3 (`<script setup>`) · Vite · Vuetify 3 · vue-i18n · vee-validate · Sass · Netlify (hosting + forms)
+Vue 3 (`<script setup>`) · Vite · Vuetify 3 · vue-i18n · vee-validate · Sass · Cloudflare Workers static assets (hosting) · Web3Forms (contact form)
 
 ## Project structure
 ```
@@ -37,6 +37,9 @@ pnpm install
 pnpm dev        # http://localhost:5173
 pnpm build      # production build in dist/
 ```
+
+## Deploy (Cloudflare)
+Connect the GitHub repo in Cloudflare → Workers & Pages → Create → Import a repository. Build command `pnpm build`, deploy command `npx wrangler deploy` (settings in `wrangler.jsonc`, headers in `public/_headers`).
 
 ## Author
 Designed and built by **Nazlı Ece Deliormanlı**.

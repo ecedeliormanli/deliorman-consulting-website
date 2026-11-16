@@ -53,13 +53,5 @@
   <body>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
-
-    <!-- Netlify'ın build sırasında formu algılayabilmesi için statik form (gizli, gerçek gönderim App.vue'dan fetch ile yapılır) -->
-    <form name="contact" data-netlify="true" netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-      <input type="text" name="bot-field" />
-    </form>
   </body>
 </html>

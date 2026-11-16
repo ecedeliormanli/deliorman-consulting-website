@@ -28,21 +28,31 @@ const whatsappNumber = '905541961011';
 const whatsappHref = computed(() => `https://wa.me/${whatsappNumber}?text=${encodeURIComponent($translate('common.whatsappFloatingMessage'))}`);
 
 // --- FONKSİYONLAR ---
-function encodeForNetlify(data) {
-  return Object.keys(data)
-      .map(key => encodeURIComponent(key) + '=' + encodeURIComponent(data[key]))
-      .join('&');
-}
+// İletişim formu Web3Forms üzerinden e-postaya gönderilir (https://web3forms.com).
+// Erişim anahtarı herkese açık olacak şekilde tasarlanmıştır, .env içinde tutulur.
+const web3formsKey = import.meta.env.VITE_WEB3FORMS_KEY;
 
 async function submitForm() {
   if (!valid.value) return;
 
   try {
-    await fetch('/', {
+    const res = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
-      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: encodeForNetlify({ 'form-name': 'contact', ...form.value }),
+      headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+      body: JSON.stringify({
+        access_key: web3formsKey,
+        subject: `Web sitesi iletişim formu: ${form.value.name}`,
+        from_name: 'Deliorman Danışmanlık Web Sitesi',
+        name: form.value.name,
+        email: form.value.email,
+        message: form.value.message,
+        kvkk_onayi: form.value.kvkkConsent ? 'Evet' : 'Hayır',
+        botcheck: false,
+      }),
     });
+    const data = await res.json().catch(() => ({}));
+    if (!res.ok || !data.success) throw new Error(data.message || `HTTP ${res.status}`);
+
     snackbarText.value = $translate('contactSection.sendSuccess', { name: form.value.name });
     snackbar.value = true;
     form.value = { name: '', email: '', message: '', kvkkConsent: false };
