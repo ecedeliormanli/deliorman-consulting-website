@@ -15,7 +15,7 @@ Multilingual marketing website for **Deliorman Danışmanlık**, a consulting fi
 - **WhatsApp** floating contact button and location sharing
 - **Google Maps** embed with one-click directions
 - Responsive layout built with **Vuetify 3**; services, process and team sections are data-driven from the translation files
-- **SEO basics** — meta / Open Graph / Twitter tags, `sitemap.xml`, `robots.txt`
+- **SEO** — meta / Open Graph / Twitter tags, canonical URL, schema.org business data, and `sitemap.xml` / `robots.txt` generated at build time from `VITE_SITE_URL`
 
 ## Tech stack
 Vue 3 (`<script setup>`) · Vite · Vuetify 3 · vue-i18n · vee-validate · Sass · Netlify (hosting + forms)
@@ -27,7 +27,8 @@ src/
   components/sections/    # TeamSection, LocationSection
   i18n/{tr,en,bg}/        # translation files (all page content lives here)
   plugins/                # i18n and validation setup
-public/                   # logo, sitemap.xml, robots.txt
+public/                   # logo
+.env                      # VITE_SITE_URL: live site address used for canonical, Open Graph, sitemap.xml and robots.txt
 ```
 
 ## Run locally

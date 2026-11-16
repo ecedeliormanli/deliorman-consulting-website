@@ -8,7 +8,7 @@ importers:
 
   .:
     dependencies:
-      '@mdi/font':
+      '@mdi/js':
         specifier: ^7.4.47
         version: 7.4.47
       '@vee-validate/i18n':
@@ -30,8 +30,8 @@ importers:
         specifier: ^10.0.5
         version: 10.0.8(vue@3.5.24)
       vuetify:
-        specifier: 3.11.0-beta.0
-        version: 3.11.0-beta.0(vue@3.5.24)
+        specifier: 3.13.7
+        version: 3.13.7(vite-plugin-vuetify@2.1.3)(vue@3.5.24)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
@@ -39,6 +39,9 @@ importers:
       vite:
         specifier: ^7.2.2
         version: 7.2.2(sass@1.94.1)
+      vite-plugin-vuetify:
+        specifier: ^2.1.3
+        version: 2.1.3(vite@7.2.2(sass@1.94.1))(vue@3.5.24)(vuetify@3.13.7)
 
 packages:
 
@@ -230,8 +233,8 @@ packages:
   '@jridgewell/sourcemap-codec@1.5.5':
     resolution: {integrity: sha512-cYQ9310grqxueWbl+WuIUIaiUaDcj7WOq5fVhEljNVgRfOUhY9fy2zTvfoqWsnebh8Sl70VScFbICvJnLKB0Og==}
 
-  '@mdi/font@7.4.47':
-    resolution: {integrity: sha512-43MtGpd585SNzHZPcYowu/84Vz2a2g31TvPMTm9uTiCSWzaheQySUcSyUH/46fPnuPQWof2yd0pGBtzee/IQWw==}
+  '@mdi/js@7.4.47':
+    resolution: {integrity: sha512-KPnNOtm5i2pMabqZxpUz7iQf+mfrYZyKCZ8QNz85czgEt7cuHcGorWfdzUMWYA0SD+a6Hn4FmJ+YhzzzjkTZrQ==}
 
   '@parcel/watcher-android-arm64@2.5.1':
     resolution: {integrity: sha512-KF8+j9nNbUN8vzOFDpRMsaKBHZ/mcjEjMToVMJOhTozkDonQFFrRcfdLWn6yWKCmJKmdVxSgHiYvTCef4/qcBA==}
@@ -502,6 +505,12 @@ packages:
   '@vue/shared@3.5.24':
     resolution: {integrity: sha512-9cwHL2EsJBdi8NY22pngYYWzkTDhld6fAD6jlaeloNGciNSJL6bLpbxVgXl96X00Jtc6YWQv96YA/0sxex/k1A==}
 
+  '@vuetify/loader-shared@2.1.2':
+    resolution: {integrity: sha512-X+1jBLmXHkpQEnC0vyOb4rtX2QSkBiFhaFXz8yhQqN2A4vQ6k2nChxN4Ol7VAY5KoqMdFoRMnmNdp/1qYXDQig==}
+    peerDependencies:
+      vue: ^3.0.0
+      vuetify: '>=3'
+
   birpc@2.8.0:
     resolution: {integrity: sha512-Bz2a4qD/5GRhiHSwj30c/8kC8QGj12nNDwz3D4ErQ4Xhy35dsSDvF+RA/tWpjyU0pdGtSDiEk6B5fBGE1qNVhw==}
 
@@ -519,6 +528,15 @@ packages:
 
   csstype@3.2.3:
     resolution: {integrity: sha512-z1HGKcYy2xA8AGQfwrn0PAy+PB7X/GSj3UVJW9qKyn43xWa+gl5nXmU4qqLMRzWVLFC8KusUX8T/0kCiOYpAIQ==}
+
+  debug@4.4.3:
+    resolution: {integrity: sha512-RGwwWnwQvkVfavKVt22FGLw+xYSdzARwm0ru6DhTVA3umU5hZc28V3kO4stgYryrTlLpuvgI9GiijltAjNbcqA==}
+    engines: {node: '>=6.0'}
+    peerDependencies:
+      supports-color: '*'
+    peerDependenciesMeta:
+      supports-color:
+        optional: true
 
   detect-libc@1.0.3:
     resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
@@ -587,6 +605,9 @@ packages:
   mitt@3.0.1:
     resolution: {integrity: sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==}
 
+  ms@2.1.3:
+    resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
+
   nanoid@3.3.11:
     resolution: {integrity: sha512-N8SpfPUnUp1bK+PMYW8qSWdl9U+wwNWI4QKxOYDy9JAro3WMX7p2OeVRF9v+347pnakNevPmiHhNmZ2HbFA76w==}
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
@@ -654,10 +675,22 @@ packages:
     resolution: {integrity: sha512-TeTSQ6H5YHvpqVwBRcnLDCBnDOHWYu7IvGbHT6N8AOymcr9PJGjc1GTtiWZTYg0NCgYwvnYWEkVChQAr9bjfwA==}
     engines: {node: '>=16'}
 
+  upath@2.0.1:
+    resolution: {integrity: sha512-1uEe95xksV1O0CYKXo8vQvN1JEbtJp7lb7C5U9HMsIp6IVwntkH/oNUzyVNQSd4S1sYk2FpSSW44FqMc8qee5w==}
+    engines: {node: '>=4'}
+
   vee-validate@4.15.1:
     resolution: {integrity: sha512-DkFsiTwEKau8VIxyZBGdO6tOudD+QoUBPuHj3e6QFqmbfCRj1ArmYWue9lEp6jLSWBIw4XPlDLjFIZNLdRAMSg==}
     peerDependencies:
       vue: ^3.4.26
+
+  vite-plugin-vuetify@2.1.3:
+    resolution: {integrity: sha512-Q4SC/4TqbNvaZIFb9YsfBqkGlYHbJJJ6uU3CnRBZqLUF3s5eCMVZAaV4GkTbehIH/bhSj42lMXztOwc71u6rVw==}
+    engines: {node: ^18.0.0 || >=20.0.0}
+    peerDependencies:
+      vite: '>=5'
+      vue: ^3.0.0
+      vuetify: '>=3'
 
   vite@7.2.2:
     resolution: {integrity: sha512-BxAKBWmIbrDgrokdGZH1IgkIk/5mMHDreLDmCJ0qpyJaAteP8NvMhkwr/ZCQNqNH97bw/dANTE9PDzqwJghfMQ==}
@@ -714,8 +747,8 @@ packages:
       typescript:
         optional: true
 
-  vuetify@3.11.0-beta.0:
-    resolution: {integrity: sha512-AxQOMEIOF686CJYLSarxKOpoGeqPwL2xzeWGuxoJl8Zqe5CEfZMn9Es+NMS29ddcVWOmb7k4J7VT4Et2RVLPhw==}
+  vuetify@3.13.7:
+    resolution: {integrity: sha512-HJ93r7kPRz9U1Xfd4vqseG1lL98LAG9a25jDZ+P4x9VEmK+ucpbQ56r2tTqeIUlCOxrl3FCmjNYL82WeRtOosA==}
     peerDependencies:
       typescript: '>=4.7'
       vite-plugin-vuetify: '>=2.1.0'
@@ -836,7 +869,7 @@ snapshots:
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
-  '@mdi/font@7.4.47': {}
+  '@mdi/js@7.4.47': {}
 
   '@parcel/watcher-android-arm64@2.5.1':
     optional: true
@@ -1057,6 +1090,12 @@ snapshots:
 
   '@vue/shared@3.5.24': {}
 
+  '@vuetify/loader-shared@2.1.2(vue@3.5.24)(vuetify@3.13.7)':
+    dependencies:
+      upath: 2.0.1
+      vue: 3.5.24
+      vuetify: 3.13.7(vite-plugin-vuetify@2.1.3)(vue@3.5.24)
+
   birpc@2.8.0: {}
 
   braces@3.0.3:
@@ -1073,6 +1112,10 @@ snapshots:
       is-what: 5.5.0
 
   csstype@3.2.3: {}
+
+  debug@4.4.3:
+    dependencies:
+      ms: 2.1.3
 
   detect-libc@1.0.3:
     optional: true
@@ -1150,6 +1193,8 @@ snapshots:
     optional: true
 
   mitt@3.0.1: {}
+
+  ms@2.1.3: {}
 
   nanoid@3.3.11: {}
 
@@ -1231,11 +1276,24 @@ snapshots:
 
   type-fest@4.41.0: {}
 
+  upath@2.0.1: {}
+
   vee-validate@4.15.1(vue@3.5.24):
     dependencies:
       '@vue/devtools-api': 7.7.9
       type-fest: 4.41.0
       vue: 3.5.24
+
+  vite-plugin-vuetify@2.1.3(vite@7.2.2(sass@1.94.1))(vue@3.5.24)(vuetify@3.13.7):
+    dependencies:
+      '@vuetify/loader-shared': 2.1.2(vue@3.5.24)(vuetify@3.13.7)
+      debug: 4.4.3
+      upath: 2.0.1
+      vite: 7.2.2(sass@1.94.1)
+      vue: 3.5.24
+      vuetify: 3.13.7(vite-plugin-vuetify@2.1.3)(vue@3.5.24)
+    transitivePeerDependencies:
+      - supports-color
 
   vite@7.2.2(sass@1.94.1):
     dependencies:
@@ -1264,6 +1322,8 @@ snapshots:
       '@vue/server-renderer': 3.5.24(vue@3.5.24)
       '@vue/shared': 3.5.24
 
-  vuetify@3.11.0-beta.0(vue@3.5.24):
+  vuetify@3.13.7(vite-plugin-vuetify@2.1.3)(vue@3.5.24):
     dependencies:
       vue: 3.5.24
+    optionalDependencies:
+      vite-plugin-vuetify: 2.1.3(vite@7.2.2(sass@1.94.1))(vue@3.5.24)(vuetify@3.13.7)

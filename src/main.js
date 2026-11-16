@@ -2,10 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 
 import { createVuetify } from 'vuetify'
-import * as components from 'vuetify/components'
-import * as directives from 'vuetify/directives'
 import 'vuetify/styles'
-import '@mdi/font/css/materialdesignicons.css'
+import { icons } from './plugins/icons.js'
 import './plugins/validator.js'
 import {useI18n} from "vue-i18n";
 import {createVueI18nAdapter} from 'vuetify/locale/adapters/vue-i18n'
@@ -13,8 +11,7 @@ import {createLocalization} from "./plugins/i18n.js";
 
 const i18n = await createLocalization()
 const vuetify = createVuetify({
-    components,
-    directives,
+    icons,
     theme: {
         defaultTheme: 'light',
         themes: {
