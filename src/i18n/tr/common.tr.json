@@ -46,9 +46,9 @@
     "member2Name": "Sibel",
     "member2Title": "Vize & Pasaport Danışmanı",
     "member2Phone": "+90 554 196 10 11",
-    "member3Name": "İsim Soyisim",
+    "member3Name": "Esra",
     "member3Title": "Vize & Pasaport Danışmanı",
-    "member3Phone": "+90 5xx xxx xx xx"
+    "member3Phone": "+90 554 196 10 11"
   },
   "contactSection": {
     "sectionTitle": "Bize Ulaşın",
@@ -71,7 +71,7 @@
     "phoneLabel": "Telefon",
     "phoneContent": "+90 312 384 10 11",
     "emailLabel": "E-posta",
-    "emailContent": "deliormandanismanlik{'@'}hotmail.com",
+    "emailContent": "deliormandanismanlik{'@'}gmail.com",
     "whatsappButton": "Konumu WhatsApp ile Gönder",
     "directionsButton": "Yol Tarifi Al",
     "wpHref": "https://wa.me/?text=Deliorman Danışmanlık%0AKavacık Subayevleri, Cihangir Cd. No:1 D:1, 06135 Keçiören/Ankara%0A%0Ahttps://maps.app.goo.gl/WPJnULEXQZZ6EDAG9",
@@ -85,7 +85,7 @@
   },
   "legalSection": {
     "title": "Gizlilik Politikası ve KVKK Aydınlatma Metni",
-    "content": "Deliorman Danışmanlık (\"Şirket\") olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca veri sorumlusu sıfatıyla hareket etmekteyiz.\n\nBu internet sitesindeki iletişim formu aracılığıyla paylaştığınız ad-soyad, e-posta adresi ve mesaj içeriğinden oluşan kişisel verileriniz; tarafınızla iletişime geçilmesi, talebinizin veya sorunuzun yanıtlanması ve sunduğumuz danışmanlık hizmetleri hakkında bilgilendirme yapılması amaçlarıyla, KVKK'nın 5. maddesinde belirtilen açık rızanızın bulunması ve bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması hukuki sebeplerine dayanılarak işlenmektedir.\n\nKişisel verileriniz, yasal yükümlülüklerimiz saklı kalmak kaydıyla üçüncü kişilerle paylaşılmaz ve talebinizin sonuçlandırılması için gerekli olan süre boyunca saklanır.\n\nKVKK'nın 11. maddesi kapsamında; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK'da öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme haklarına sahipsiniz.\n\nBu haklarınızı kullanmak için deliormandanismanlik@hotmail.com adresinden bizimle iletişime geçebilirsiniz."
+    "content": "Deliorman Danışmanlık (\"Şirket\") olarak, 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") uyarınca veri sorumlusu sıfatıyla hareket etmekteyiz.\n\nBu internet sitesindeki iletişim formu aracılığıyla paylaştığınız ad-soyad, e-posta adresi ve mesaj içeriğinden oluşan kişisel verileriniz; tarafınızla iletişime geçilmesi, talebinizin veya sorunuzun yanıtlanması ve sunduğumuz danışmanlık hizmetleri hakkında bilgilendirme yapılması amaçlarıyla, KVKK'nın 5. maddesinde belirtilen açık rızanızın bulunması ve bir sözleşmenin kurulması veya ifasıyla doğrudan doğruya ilgili olması hukuki sebeplerine dayanılarak işlenmektedir.\n\nKişisel verileriniz, yasal yükümlülüklerimiz saklı kalmak kaydıyla üçüncü kişilerle paylaşılmaz ve talebinizin sonuçlandırılması için gerekli olan süre boyunca saklanır.\n\nKVKK'nın 11. maddesi kapsamında; kişisel verilerinizin işlenip işlenmediğini öğrenme, işlenmişse buna ilişkin bilgi talep etme, işlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK'da öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme haklarına sahipsiniz.\n\nBu haklarınızı kullanmak için deliormandanismanlik{'@'}gmail.com adresinden bizimle iletişime geçebilirsiniz."
   },
   "common": {
     "close": "Kapat",
