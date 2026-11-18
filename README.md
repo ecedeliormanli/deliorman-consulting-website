@@ -2,7 +2,7 @@
 
 Multilingual marketing website for **Deliorman Danışmanlık**, a consulting firm in Ankara that has handled Bulgarian visa, passport and citizenship procedures since 2009.
 
-**Live:** https://deliormandanismanlik.netlify.app
+**Live:** https://deliormandanismanlik.com
 
 | Desktop | Mobile |
 |---|---|
